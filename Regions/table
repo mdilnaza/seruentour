@@ -1,0 +1,104 @@
+<html>
+<head>
+<body>
+<table width="100%" border="1" bordercolor="yellow" cellpadding="1" cellspacing="3">
+            <tr>
+                <th>How to get there</th>
+                <th>Getting Around</th>
+            </tr>
+
+            <tr>
+                <td>
+                    <table width="100%" border="1" bordercolor="red">
+                        <tr>
+                            <td>
+                                <uv>
+
+                                    <li>By Plane
+
+                                        <p>
+                                            <a href="https://airastana.com/global/en-us "> <em>Air Astana</em></a> is
+                                            the national
+                                            air carrier of Kazakhstan, based in Almaty. <br>
+                                            It operates regular international and domestic flights on 64 routes from its
+                                            main hub, Almaty International Airport, <br>
+                                            and from a secondary hub, Nursultan Nazarbayev International Airport.
+                                        </p>
+                                    </li>
+                                    <li>By Train
+
+                                        <p>
+                                            If you are already in another city of Kazakhstan, you can get to Almaty
+                                            by <a href="https://bilet.railways.kz/?_locale=us"> <em>train</em></a>. <br>
+                                            You will arrive in Almaty 1, or to
+                                            Almaty 2, <br>
+                                            it's  closer to downtown from which you can
+                                            get to any part.
+                                        </p>
+                                    </li>
+
+                                </uv>
+
+                            </td>
+
+                        </tr>
+
+
+                    </table>
+
+
+
+                </td>
+
+                <td>
+                    <table width="100%" border="1" bordercolor="red">
+                        <tr>
+                        <tr>
+                            <uv>
+
+                                <li>By Bus
+
+                                    <p>
+                                        <a href="https://alatransit.kz/en"> <i>There are plenty of
+                                                bus
+                                                routes </i> </a> for tourists to go anywhere for cheap price in the city
+                                        of
+                                        Almaty.
+                                        <br> Today, fare payment is available with a transport card, as well as by means
+                                        of a QR code. <br>
+                                        There are the following mobile applications for this: Transcard, Kaspi.kz, <br>
+                                        SMSBUS, Homebank, My Activ, My Beeline, Senim, Rakhmet, Astra Bus, Plus24
+                                        (Kassa24), Qiwi and OYBY
+                                    </p>
+                                </li>
+                                <li>On foot
+
+                                    <p>
+                                        A walk allows you to immerse yourself in the pleasure of traveling from one
+                                        point to another. <br>
+                                        You will get to know the city you are visiting better, besides, it's possible to
+                                        talk with the locals to get acquainted with Kazakh culture,
+                                        see amazing artistic architecture and just enjoy!
+                                    </p>
+                                </li>
+
+                            </uv>
+                        </tr>
+                </td>
+        </table>
+
+        </td>
+        </tr>
+        </table>
+
+
+
+        </tr>
+
+
+
+
+        </table>
+        </body>
+        </head>
+        </html>

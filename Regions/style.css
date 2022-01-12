@@ -1,0 +1,164 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.header{
+	height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.header img{
+	width: 170px;
+	float: left;
+}
+
+.header h1{
+	padding-top: 200px;
+	padding-bottom: 0;
+	font-size: 55px;
+	font-family: "Gill Sans", sans-serif;
+}
+
+.header p{
+	margin: 18px 0px;
+	font-family: "Gill Sans", sans-serif;
+}
+
+.attractions{
+	padding: 100px 0;
+}
+
+h1{
+	text-align: center;
+	padding-bottom: 30px;
+	font-family: "Gill Sans", sans-serif;
+}
+
+.att-img img{
+	width: 100%;
+}
+
+.att-img{
+	position: relative;
+
+}
+
+.attractions .fas{
+	font-size: 15px;
+	color: #a37a29;
+}
+
+.att-details{
+	padding: 20px;
+	text-align: justify;
+}
+
+.att-details h4{
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.att-details fas{
+	margin-right: 5px;
+}
+
+.att-box{
+	box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+	margin-bottom: 30px;
+}
+
+.gallery{
+	padding: 100px 0;
+	background: #efefef;
+}
+
+.gallery-box img{
+	width: 100%;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.gallery-box img:hover{
+	transform: scale(1.1);	
+}
+
+.gallery-box h4{
+    display: block;
+	color: #fff;
+	text-shadow: -2px 2px 2px #000;
+	font-weight: 600;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: "Gill Sans", sans-serif;
+}
+
+.gallery-box{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.banner{
+	height: 80%;
+	background-image: url(images/ns9.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 14%;
+}
+
+.banner-highlights{
+	padding: 70px 0;
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+	color: #fff;
+}
+
+.booking-btn{
+	width: 120px;
+	padding: 8px 0;
+	outline: none !important;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	background: transparent;
+	color: #fff;
+	margin-top: 25px;
+}
+
+.table{
+	background: #efefef;
+	padding: 0 110px;
+}
+
+table{
+	background: #fff;
+	border-collapse: separate;
+	box-shadow: 3px 3px 15px 1px rgba(37, 73, 214, 0.18);
+	text-align: left;
+	background-color: #fff;
+}
+
+th{
+	color: #fff;
+	background-color: #68baed;
+	padding: 0.75rem 2rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	font-size: 1.2rem;
+	font-weight: 900;
+	text-shadow: -2px 2px 2px #000;
+}
+
+td{
+	padding: 1rem 2rem;
+}
+
