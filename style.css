@@ -1,0 +1,225 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+}
+
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/bg.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 7%;
+}
+
+.logo{
+	width: 170px;
+	cursor: pointer;
+}
+
+.nav-links li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px 30px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.nav-links li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: 500;
+	font-family: "Gill Sans", sans-serif;
+}
+
+.container{
+	padding: 0 7%;
+}
+
+.header h1{
+	font-size: 4vw;
+	font-weight: 500;
+	text-align: center;
+	padding-top: 12%;
+	color: #fff;
+	font-family: "Gill Sans", sans-serif;
+}
+
+
+
+.title{
+	margin: 50px 0 20px;
+	font-size: 2.2vw;
+	font-weight: 500;
+	color: #333;
+	font-family: "Gill Sans", sans-serif;
+}
+
+.regions{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 30px;
+}
+
+.regions div img{
+	width: 100%;
+	height: 130px;
+	border-radius: 10px;
+	transition: 1s;
+}
+
+.regions div img:hover{
+	transform: scale(1.1);
+}
+
+.regions div{
+	position: relative;
+}
+
+.regions div span{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-shadow: -2px 2px 2px #000;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #fff;
+	font-family: "Gill Sans", sans-serif;
+}
+
+.popular{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 30px;
+	margin-bottom: 30px;
+}
+
+.popular div img{
+	width: 100%;
+	border-radius: 10px;
+	transition: 1s;
+}
+
+.popular div img:hover{
+	transform: scale(1.1);
+}
+
+.popular h3{
+	font-weight: 600;
+	margin-top: 10px;
+	color: #333
+	font-family: "Gill Sans", sans-serif;
+}
+
+.cta{
+	margin: 10px 0;
+	background-image: linear-gradient(to right, #3f2321, transparent), url(images/plantrip.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+   padding: 5%;
+   color: #fff;
+}
+
+.cta h3{
+	font-size: 3.6vw;
+	line-height: 2.4vw;
+	font-weight: 500;
+}
+
+.cta-btn{
+	width: 120px;
+	padding: 8.5px 0;
+	outline: none !important;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	background: transparent;
+	color: #fff;
+	margin-top: 15px;
+	display: inline-block;
+	text-align: center;
+	font-size: 15px;
+}
+
+/* OUTER CONTAINER */
+.hwrap {
+  width: 100%;
+  height: 100px; 
+  overflow: hidden; 
+}
+
+.hmove {
+  display: flex;
+  position: relative;
+  top: 0; 
+  right: 0;
+}
+
+/* SLIDES - FORCE INTO ONE LONG HORIZONTAL ROW */
+.hslide {
+  width: 100%;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+/* SLIDE ANIMATION */
+@keyframes slideh {
+  0% { right: 0; }
+  30% { right: 0; }
+  33% { right: 100%; }
+  63% { right: 100%; }
+  66% { right: 200%; }
+  97% { right: 200%; }
+  100% { right: 0; }
+}
+.hmove { animation: slideh linear 10s infinite; }
+.hmove:hover { animation-play-state: paused; }
+
+.footer{
+	text-align: center;
+	margin: 80px 0;
+	color: black;
+	font-size: 17px;
+}
+
+.footer h2{
+	font-size: 28px;
+	margin-bottom: 30px;
+	font-weight: 500;
+}
+
+.active{
+	position: relative;
+}
+
+.active::after{
+	content: '';
+	background: #fff;
+	width: 25px;
+	height: 2px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	bottom: -12px;
+	border-radius: 2px;
+}
+
+nav .fa-bars{
+	display: none;
+}
+
+
+
